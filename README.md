@@ -64,4 +64,24 @@ Welcome to **ShopEase**, a fullstack e-commerce web application built with **Rea
    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
    spring.security.jwt.secret=your_jwt_secret_key
+3. cd ../frontend
+
+4. npm install
+
+-- folder structure
+shopease/
+├── backend/
+│   └── src/
+│       └── main/java/com/shopease/
+│           ├── config/
+│           ├── controller/
+│           ├── model/
+│           ├── repository/
+│           └── service/
+├── frontend/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── redux/
+│       └── api/
 
